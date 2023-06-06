@@ -47,3 +47,7 @@ In the above example, we create an instance of adjustDiv with the following para
 - `animate(animation, applyToChildren)`: Applies an animation to the target element and its child elements. The animation parameter specifies the animation name or 'random' for a random animation. The applyToChildren parameter determines whether the animation should be applied to child elements.
 - `adjustDiv()`: Initializes the responsive behavior, lazy loading, and animation. It also attaches the window resize event listener to automatically adjust on window resize.
 
+## Dependencies
+- [LazySizes](https://github.com/aFarkas/lazysizes): Lazy loading library for images.
+- [animate.css](https://animate.style/): CSS animation library.
+- 
