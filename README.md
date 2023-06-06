@@ -29,5 +29,21 @@ myDiv.adjustDiv();
 ```
 
 
+In the above example, we create an instance of adjustDiv with the following parameters:
 
+- Selector: .my-div - The CSS selector for the target element
+- Class Name: my-class - The class name to be applied to the target element
+- Breakpoint: 768 - The width breakpoint for responsive behavior
+- Font Size Ratio: 1.5 - The ratio for responsive font size adjustment
+- Responsive Images: true - Enable responsive behavior for images
+- Lazy Loading: true - Enable lazy loading of images
+- We then apply the 'fadeIn' animation to the target element and its child elements. Finally, we invoke the adjustDiv function to start the responsive behavior, lazy loading, and animation.
+
+## API
+
+- `setResponsiveWidth()`: Adjusts the width of the target element based on the current window width and parent element width.
+- `setResponsiveFontSize(baseFontSize)`: Adjusts the font size of the target element based on the current window width and a base font size.
+- `applyLazyLoading()`: Applies lazy loading to the images within the target element using the LazySizes library.
+- `animate(animation, applyToChildren)`: Applies an animation to the target element and its child elements. The animation parameter specifies the animation name or 'random' for a random animation. The applyToChildren parameter determines whether the animation should be applied to child elements.
+- `adjustDiv()`: Initializes the responsive behavior, lazy loading, and animation. It also attaches the window resize event listener to automatically adjust on window resize.
 
