@@ -50,3 +50,6 @@ In the above example, we create an instance of adjustDiv with the following para
 ## Dependencies
 - [LazySizes](https://github.com/aFarkas/lazysizes): Lazy loading library for images.
 - [animate.css](https://animate.style/): CSS animation library.
+
+## Contributing
+Contributions to `adjustDiv` are welcome! If you have any suggestions, improvements, or bug fixes, please create a pull request or open an issue on the GitHub repository.
