@@ -53,3 +53,6 @@ In the above example, we create an instance of adjustDiv with the following para
 
 ## Contributing
 Contributions to `adjustDiv` are welcome! If you have any suggestions, improvements, or bug fixes, please create a pull request or open an issue on the GitHub repository.
+
+## License
+`adjustDiv` is licensed under the MIT License.
