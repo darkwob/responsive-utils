@@ -17,10 +17,8 @@
 
 To use **adjustDiv**, include the following script tag in your HTML file:
 
-```php
-Route::get('/', function(){
-    return 'homepage';
-});
+```html
+<script src="adjustDiv.js"></script>
 ```
 
 
