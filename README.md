@@ -18,11 +18,11 @@
 To use **adjustDiv**, include the following script tag in your HTML file:
 
 ```html
-<script src="adjustDiv.js"></script>
+<script src="adjustDiv.js"></script>```
 
 
 ##Example
 ```Javascript
 const myDiv = adjustDiv('.my-div', 'my-class', 768, 1.5, true, true);
 myDiv.animate('fadeIn', true);
-myDiv.adjustDiv();
+myDiv.adjustDiv();```
