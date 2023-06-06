@@ -45,7 +45,7 @@ function adjustDiv(
       setResponsiveWidth();
       setResponsiveFontSize(16);
       applyLazyLoading();
-      // Animasyon işlemlerini gerçekleştir
+      // // Perform animation operations
       // ...
     }
   }
@@ -54,7 +54,7 @@ function adjustDiv(
     setResponsiveWidth();
     setResponsiveFontSize(16);
     applyLazyLoading();
-    // Animasyon işlemlerini gerçekleştir
+    // // Perform animation operations
     // ...
 
     window.addEventListener('resize', handleResize);
@@ -69,7 +69,3 @@ function adjustDiv(
   };
 }
 
-// Kullanım örneği
-const myDiv = adjustDiv('.my-div', 'my-class', 768, 1.5, true, true);
-myDiv.animate('fadeIn', true);
-myDiv.adjustDiv();
