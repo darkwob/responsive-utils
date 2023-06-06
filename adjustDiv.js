@@ -45,7 +45,7 @@ function adjustDiv(
       setResponsiveWidth();
       setResponsiveFontSize(16);
       applyLazyLoading();
-      // // Perform animation operations
+       // Perform animation operations
       // ...
     }
   }
@@ -54,7 +54,7 @@ function adjustDiv(
     setResponsiveWidth();
     setResponsiveFontSize(16);
     applyLazyLoading();
-    // // Perform animation operations
+     // Perform animation operations
     // ...
 
     window.addEventListener('resize', handleResize);
