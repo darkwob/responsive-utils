@@ -19,3 +19,6 @@ To use **adjustDiv**, include the following script tag in your HTML file:
 
 ```html
 <script src="adjustDiv.js"></script>
+
+
+## Usage
